@@ -6,28 +6,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .Container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            border: 5px solid lightgray;
+            background-color: lightgray;
+            
+
+        }
+
+        .Box {
+            position: relative;
+            display: flex;
+            gap: 60px;
+            background-color: white;
+            border: 3px solid lightgray;
+            align-items: center;
+          
+        }
+
+        .color {
+            width: 100px;
+            height: 100%;
+            background-color: violet;
+        }
+
+        h4 {
+            color: white;
+        }
+
+        span {
+            background-color: rgb(143, 5, 143);
+            padding: 5px;
+        }
+
+        p {
+            font-weight: 600;
+        }
+
+        button {
+            border-color: blueviolet;
+            color: blueviolet;
+            background-color: white;
+            padding: 5px;
+
+        }
+
+        .oferta {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+
+        }
+
+        /*BOX2*/
+        .Box2 {
+            position: relative;
+            display: flex;
+            gap: 60px;
+            background-color: white;
+            border: 3px solid lightgray;
+            align-items: center;
+        }
+
+        .color2 {
+            width: 100px;
+            height: 100%;
+            background-color: rgb(150, 62, 232);
+
+        }
+
+        .producto {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            padding: 5px;
+        }
+
+        .titulo2 {
+            background-color: rgb(150, 62, 232);
+            padding: 5px;
+
+        }
     </style>
+
 </head>
 
 <body>
     <div class="Container">
         <div class="Box">
-            <div class="fondo">
+            <div class="color">
 
             </div>
-            <div>
-                <img src="" alt="">
+            <div class="oferta">
+                <img src="./assets/img/—Pngtree—special offer_5390661.png" alt="oferta" width="150" height="150">
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="white">
+
+                <div>
+                    <h4><span>
+
+                            DESCUBRILAS</h4>
+                    </span>
+                </div>
+                <div>
+                    <p>No te pierdas las mejores ofertas <br>al precio mas bajo </p>
+                </div>
+                <div>
+                    <button>VER MÀS</button>
+                </div>
+            </div>
         </div>
         <div class="Box2">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="color2">
+
+            </div>
+            <div class="producto">
+                <img src="./assets/img/—Pngtree—furniture sofa table_5628015.png" alt="oferta" width="150" height="150">
+            </div>
+            <div class="white">
+
+                <div>
+                    <h4><span class="titulo2">
+
+                            FRÀVEGA CASA</h4>
+                    </span>
+                </div>
+                <div>
+                    <p>Hasta 40% off en colchones, <br>muebles y articulos de <br>decoracion seleccionados. </p>
+                </div>
+                <div>
+                    <button>VER MÀS</button>
+                </div>
+            </div>
+
         </div>
 
     </div>
